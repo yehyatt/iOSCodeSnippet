@@ -1,0 +1,8 @@
+browse to directory and type :  pod init 
+a podfile will be created
+open the podfile and add  (pod 'name of the pod' , '~> 2.0') after the target 'app name' 
+back to terminal type : pod install
+then from now on use the projectname.xcworkspace file to open the project instead of the projectname.xcodeproj
+
+Note :
+A mac will add this ’ don't use it and use this '
