@@ -1,0 +1,43 @@
+// Playground - noun: a place where people can play
+
+import UIKit
+
+var ages = [34, 33, 3, 0]
+
+var myAge = ages[1]
+
+var myWifesAge = ages[0]
+
+var totalAge = ages[1] + ages [0]
+
+var myFamily = [ "Dad": "Rob", "Mum": "Kirsten", "First Son": "Tom", "Second Son": "Ralphie"]
+
+var mumsName = myFamily["Mum"]
+
+var myRole = "Dad"
+
+var myName = myFamily[myRole]
+
+ages.append(5)
+
+myFamily["Daughter"] = "Mary"
+
+ages.removeAtIndex(4)
+
+println(ages)
+
+myFamily["Daughter"] = nil
+
+println(myFamily)
+
+var numberOfPeopleInFamily = ages.count
+
+var someIntegers = [Int]()
+
+var someStrings = [String]()
+
+var myDictionary = Dictionary<String, Float>()
+
+myDictionary["pi"] = 3.14
+
+println(myDictionary)
