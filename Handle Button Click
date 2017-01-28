@@ -1,0 +1,12 @@
+In your code, add the method to handle that action. For instance,
+
+.h file
+
+- (IBAction)buttonTapped:(UIButton *)sender;
+.m file
+
+- (IBAction)buttonTapped:(UIButton *)sender
+{
+  NSLog(@"Button Tapped!");
+}
+Now, open you xib file, right click to File's Owner, there you should see your method, drag the plus circle onto your button. You should see a bunch of different actions, most of the time touchUpInside is what you are looking for.
